@@ -1,8 +1,16 @@
+import { connect } from "react-redux";
 
 
-const addCar = (car) => {
+export const addCar = (Car) => {
   return {
       type: 'ADD_CAR',
-      value: car
+      value: Car
+  }
+}
+
+export const removeCar = index => {
+  return {
+      type: 'REMOVE_CAR',
+      value: index
   }
 }
