@@ -1,4 +1,4 @@
-import { connect } from "react-redux";
+// import { connect } from "react-redux";
 
 
 export const addCar = (Car) => {
@@ -8,7 +8,7 @@ export const addCar = (Car) => {
   }
 }
 
-export const removeCar = index => {
+export const removeCar = (index) => {
   return {
       type: 'REMOVE_CAR',
       value: index

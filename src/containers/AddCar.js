@@ -4,7 +4,7 @@ import { addCar } from '../redux/action'
 
 const mapDispatchToProps = dispatch => {
 	return {
-		addCar: Car => dispatch(addCar(Car))
+		addCar: (car) => dispatch(addCar(car))
 	};
 };
 

@@ -11,6 +11,8 @@ const cars = (state = [], action) => {
            const newState = [ ...state ]
            newState.splice(action.value, 1)  
            return newState; 
+         default:
+            return state  
     }
 }
 
