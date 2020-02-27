@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import Dashboard from '../components/Dashboard'
-import { removeCar } from '../'
+import { removeCar } from '../redux/action'
 // import { removeCar } action here
 
 const mapStateToProps = (state) => {
