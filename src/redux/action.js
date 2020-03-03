@@ -1,4 +1,3 @@
-import { connect } from "react-redux";
 
 
 export const addCar = (Car) => {
